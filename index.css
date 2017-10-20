@@ -1,0 +1,10 @@
+    @media print {
+    .container {
+    width: auto;
+    }
+    }
+
+   .starter-template {
+   padding: 0.10rem 0.50rem;
+   text-align: center;
+   }
