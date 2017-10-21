@@ -8,3 +8,8 @@
    padding: 0.0rem 0.0rem;
    text-align: center;
    }
+
+   .jumbotron {
+      text-align:center;
+      font-family: inherit;
+      }
