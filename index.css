@@ -1,5 +1,6 @@
     body {
     font-family: 'Dosis', sans-serif;
+     background-color:#fff;
     }
 
     @media print {
@@ -17,3 +18,37 @@
       text-align:center;
       font-family: inherit;
       }
+
+   @media screen and (max-width: 575px) {
+    .col-sm-6 {
+         position: center;
+          margin-left:50px;
+          margin-right:50px;
+    }
+    
+    .col-sm-6 {
+         text-align: center;
+    }
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.bg-4 {
+      
+    line-height: 1.5;
+    background-color: #008CBA;
+    color: #fff;
+        margin-top: 1px;
+    margin-bottom: 0px;
+    
+ .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-right: 15px; 
+    padding-left: 15px; 
+     margin-right: auto; 
+     margin-left: auto; 
+
+  }
