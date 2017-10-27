@@ -1,3 +1,7 @@
+    body {
+    font-family: 'Dosis', sans-serif;
+    }
+
     @media print {
     .container {
     width: auto;
