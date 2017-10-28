@@ -2,6 +2,19 @@
     font-family: 'Dosis', sans-serif;
      background-color:#fff;
     }
+ 
+.fadeInLeft {
+   animation-delay: 1.25s;
+   animation-duration: 0.25s;
+}
+ 
+ .slideInUp {
+  animation-duration: 1.25s;
+}
+ 
+ .fadeInDownBig {
+  animation-duration: 1.50s;
+}
 
     @media print {
     .container {
@@ -9,15 +22,15 @@
     }
     }
 
-   .starter-template {
-   padding: 0.0rem 0.0rem;
-   text-align: center;
-   }
 
-   .jumbotron {
-      text-align:center;
-      font-family: inherit;
-      }
+   .btn:active,
+ .btn:focus,
+ .btn.active {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
 
    @media screen and (max-width: 575px) {
     .col-sm-6 {
@@ -34,21 +47,30 @@
 .bg-light {
     background-color: #fff!important;
 }
+   
 
+ .container-fluid {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 15px; 
+    padding-left: 15px; 
+     margin-right: auto; 
+     margin-left: auto; 
+  }
+    
 .bg-4 {
       
     line-height: 1.5;
     background-color: #008CBA;
     color: #fff;
-        margin-top: 1px;
-    margin-bottom: 0px;
-    
- .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-      padding-right: 15px; 
-    padding-left: 15px; 
-     margin-right: auto; 
-     margin-left: auto; 
+}
 
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
   }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
