@@ -1,7 +1,7 @@
-    body {
-    font-family: 'Dosis', sans-serif;
-     background-color:#fff;
-    }
+body {
+  font-family: 'Dosis', sans-serif;
+  background-color:#fff;
+}
  
 .fadeInLeft {
    animation-delay: 1.25s;
@@ -16,31 +16,30 @@
   animation-duration: 1.50s;
 }
 
-    @media print {
-    .container {
-    width: auto;
-    }
-    }
+@media print {
+ .container {
+  width: auto;
+}
+}
 
-
-   .btn:active,
- .btn:focus,
- .btn.active {
+.btn:active,
+.btn:focus,
+.btn.active {
    background-image: none;
    outline: 0;
    -webkit-box-shadow: none;
    box-shadow: none;
- }
+}
 
-   @media screen and (max-width: 575px) {
-    .col-sm-6 {
-         position: center;
-          margin-left:50px;
-          margin-right:50px;
-    }
+@media screen and (max-width: 575px) {
+ .col-sm-6 {
+     position: center;
+     margin-left:50px;
+     margin-right:50px;
+}
     
-    .col-sm-6 {
-         text-align: center;
+.col-sm-6 {
+      text-align: center;
     }
 }
 
@@ -49,7 +48,7 @@
 }
    
 
- .container-fluid {
+.container-fluid {
       padding-top: 0px;
       padding-bottom: 0px;
       padding-right: 15px; 
