@@ -25,11 +25,11 @@ body {
    box-shadow: none;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 35.9375em) {
  .col-sm-6 {
      position: center;
-     margin-left:50px;
-     margin-right:50px;
+     margin-left:3.125em;
+     margin-right:3.125em;
 }
     
 .col-sm-6 {
@@ -38,14 +38,14 @@ body {
 }
 
 .bg-light {
-    background-color: #fff!important;
+    background-color: #fff !important;
 }
 
 .container-fluid {
-      padding-top: 0px;
-      padding-bottom: 0px;
-      padding-right: 15px; 
-    padding-left: 15px; 
+      padding-top: 0em;
+      padding-bottom: 0em;
+      padding-right: 0.9375em; 
+    padding-left: 0.9375em; 
      margin-right: auto; 
      margin-left: auto; 
 }
