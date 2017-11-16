@@ -14,12 +14,6 @@ body {
      margin-left: auto; 
 }
 
-.img-fluid:hover
-    {
-    -webkit-filter: blur(10px);
-    filter: blur(10px);  
-    }
-
 /* Navbar */
 
 .btn:active,
