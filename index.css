@@ -65,3 +65,9 @@ body {
     -webkit-filter: hue-rotate(-360deg);
   }
 }
+
+.img-fluid:hover
+    {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);  
+    }
