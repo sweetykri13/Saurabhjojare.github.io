@@ -41,6 +41,10 @@ body {
 .col-sm-6 {
       text-align: center;
     }
+
+.rounded-circle {
+    width: 45px;
+}
 }
 
 @media print {
