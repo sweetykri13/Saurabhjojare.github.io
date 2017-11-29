@@ -45,24 +45,24 @@
 
 <div class="container-fluid">
   <nav id="navbar-example2" class="navbar navbar-light bg-light">
-   <a class="navbar-brand animated zoomInUp" href="https://saurabhjojare.github.io" title="Click To Animate">Saurabh Jojare</a>
+   <a class="navbar-brand" href="https://saurabhjojare.github.io" title="Click To Animate">Saurabh Jojare</a>
     <ul class="nav nav-pills">
      <li class="nav-item">
       <a class="nav-link" href="#">
        <!-- Modal Starts Here -->
-        <button type="button" class="btn btn-outline-primary animated zoomInUp" data-toggle="modal" data-target="#exampleModal" title="Click To Open Contact Information"> Contact</button>
+        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal" title="Open Contact Information"> Contact</button>
          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
            <div class="modal-content">
-            <div class="modal-header" style="color:#000;">
+            <div class="modal-header" id="modal">
              <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
                <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Close">
               <span aria-hidden="true">&times;</span>
              </button>
             </div>
            <div class="modal-body">
-          <p style="color:#000;">Email: Saurabhjojare11@gmail.com</p> 
-         <p style="color:#000;">Phone: +91 708-390-0700</p> 
+          <p id="modal">Email: Saurabhjojare11@gmail.com</p> 
+         <p id="modal">Phone: +91 708-390-0700</p> 
         </div>
        </div>
       </div>
@@ -85,8 +85,8 @@
    <img  class="img-fluid rounded animated zoomInUp" src="Image.jpeg" alt="Photograph" Title="Saurabh Jojare" width="400" height="400">
     </div>
      <div class="col-sm-6">
-      <h1 class="animated zoomInUp">Saurabh Jojare</h1>
-     <h4 class="animated zoomInUp" >Computer Programmer</h4>
+      <h1 class="animated fadeInUp">Saurabh Jojare</h1>
+     <h4 class="animated fadeInUp" >Computer Programmer</h4>
    </div>
   </div>
  </div>
@@ -103,7 +103,7 @@
       I'm studying BSc Computer Science at Modern College at Pune, India.<br>
      during my BSc, I have earned experience on high performance computing, 
     software development, web development and database management.</h4>
-    <h4>I'm currently unavailable for work, but you can take a look at my <a href="Resume.pdf">resume</a> anyway.</h4>
+    <h4>I'm currently unavailable for work, but you can take a look at my <a id="resume" href="Resume.pdf">resume</a> anyway.</h4>
    </div>
  <br>
 
