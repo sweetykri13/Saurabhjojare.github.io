@@ -14,7 +14,54 @@ body {
      margin-left: auto; 
 }
 
+/* Text */
+
 #resume{color:#008cba;}
+
+/* Scrollbar Up */
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #fff;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #008cba;
+  width: 0%;
+}
+.content {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Scrollbar Side */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #008cba; 
+}
+
 /* Navbar */
 
 .btn:active,
@@ -94,21 +141,4 @@ body {
 
  .zoomInUp {
   animation-duration: 1.2s;
-}
-
-/* Scroll bar */
-
-/* width */
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #fff; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #008cba; 
 }
