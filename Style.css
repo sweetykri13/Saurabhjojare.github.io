@@ -3,6 +3,7 @@
 body {
   font-family: 'Dosis', sans-serif;
   background-color:#fff;
+  margin: 0px;
 }
 
 .container-fluid {
@@ -19,9 +20,7 @@ body {
 }
 
 #XML{
-  margin-top:11px;width:95%; 
-  box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
-  border-radius: 8px;
+  margin-top:11px;width:95%; box-shadow:0 1px 6px rgba(32, 33, 36, 0.28); border-radius: 8px;
 }
 
 #none{
@@ -37,16 +36,8 @@ min-height: 100vh;
 position: relative;
 text-align: center;
 z-index: 0;
-background-position-x: 50%;
-background-position-y: 0%;
-background-position:Center top;
-background-attachment: fixed;
+background-position:Center;
 display: none;
-overflow: auto;
-  top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
 }
 
 .main{
