@@ -4,6 +4,7 @@ body {
   font-family: 'Dosis', sans-serif;
   background-color:#fff;
   margin: 0px;
+
 }
 
 .container-fluid {
@@ -20,7 +21,10 @@ body {
 }
 
 #XML{
-  margin-top:11px;width:95%; box-shadow:0 1px 6px rgba(32, 33, 36, 0.28); border-radius: 8px;
+  margin-top:11px;
+  width:95%;
+  box-shadow:0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 8px;
 }
 
 #none{
@@ -28,7 +32,7 @@ body {
 }
 
 .content.nuevo{
-background-attachment: fixed;
+background-attachment: scroll;
 background-image: url(Image.jpeg);
 width: 100%;
 background-size: cover;
@@ -36,7 +40,10 @@ min-height: 100vh;
 position: relative;
 text-align: center;
 z-index: 0;
-background-position:Center;
+background-position-x: 50%;
+background-position-y: 0;
+background-position: top center;
+background-origin:content-box;
 display: none;
 }
 
@@ -62,7 +69,9 @@ box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 
 /* Text */
 
-#resume{color:#008cba;}
+#resume{
+  color:#008cba;
+}
 
 /* Scrollbar Side */
 
@@ -109,7 +118,9 @@ box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
     background-color: #fff !important;
 }
 
-#modal{color:#000;}
+#modal{
+  color:#000;
+}
 
 /* Responsive Media */
 
