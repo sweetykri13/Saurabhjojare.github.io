@@ -4,7 +4,6 @@ body {
   font-family: 'Dosis', sans-serif;
   background-color:#fff;
   margin: 0px;
-
 }
 
 .container-fluid {
@@ -59,6 +58,13 @@ opacity: 0.7;
 
 #br{
 word-wrap:break-word;
+}
+
+#Photos
+{
+margin-top:9px;
+margin-bottom:0p;
+display:none;
 }
 
 /* Box */
@@ -156,6 +162,8 @@ box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   display: none;
 }
 
+#Photos{
+display:block;
 }
 
 /* Footer */
