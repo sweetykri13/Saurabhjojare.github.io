@@ -3,8 +3,9 @@
 /* Body */
 
 body {
-  font-family: 'PT Sans', sans-serif;
-  background-color: #f6f7f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:#f6f7f9;
+  font-size: 1rem;
 }
 
 .bootstrap{
@@ -46,7 +47,6 @@ font-family: 'Dosis', sans-serif;
 }
 
 .footer{
-  background-color: #fff;
   padding-bottom:  0.625em;
   padding-top: 0.625em;
 }
@@ -57,6 +57,19 @@ font-family: 'Dosis', sans-serif;
 
 .margin{
   padding:0.625em;
+}
+
+.blog-footer {
+  padding: 1.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+  font-size: 1.2rem;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
 }
 
 /* Animations */
@@ -71,10 +84,15 @@ font-family: 'Dosis', sans-serif;
   }
 }
 
+.padding{
+  padding: 5.8px;"
+}
+
 /* Box */
 
 .Box{ 
 box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); 
+padding:25px;
 }
 
 /* Text */
