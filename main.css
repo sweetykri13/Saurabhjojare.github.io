@@ -16,6 +16,11 @@ body {
   color: #000;
 }
 
+.first{
+margin-top: 7px;
+margin-bottom: -2px;
+}
+
 .content.saurabh{
 background-attachment: scroll;
 background-image: url(Image.jpeg);
