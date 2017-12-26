@@ -8,22 +8,6 @@ body {
   font-size: 1rem;
 }
 
-.font_0 {
-    font: normal normal normal 75px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
-        line-height: 1.4em;
-    color: #333;
-}
-.txtNew {
-    word-wrap: break-word;
-}
-.style-it437nj7link {
-    display: block;
-    border-radius: 50%;
-    border: 8px solid #fff;
-    background-color: #fff;
-    overflow: hidden;
-}
-
 .bootstrap{
   margin-top:0.6875em;
   width:98%;
