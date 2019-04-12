@@ -1,0 +1,227 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 63px; 
+  line-height: 60px;
+  background-color: #fff;
+  margin-bottom: 0;
+  text-align: center; 
+}
+
+header
+{
+  padding: 5px;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+header > a {
+  color: #333;
+  font-weight: 0;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.maintxt
+{
+  margin-top: 4.5rem;
+  font-weight: 0;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.link
+{
+  margin-left: 0;
+}
+
+.link > a
+{
+margin: 4px;
+margin-bottom: 0px;
+bottom: 0;
+}
+
+.mycv
+{
+float: right;
+font-size: 25px;
+}
+
+.space
+{
+  margin-top:30px;
+}
+
+.linespace
+{
+  line-height: 22px;
+  letter-spacing:2px; 
+}
+
+.footertxt > a
+{
+  color: #000;  margin: 10px;
+
+}
+
+.hr
+{
+ max-width: 350px; 
+ margin-left:0;
+
+}
+
+.hrmob
+{
+  display: none;
+}
+
+.social
+{
+text-align: right;  
+}
+
+.thank
+{
+ margin-top: 2rem; 
+}
+
+.linkbottom
+{
+  margin-top: 2.3rem;
+}
+
+.text-left {
+    text-align: left;
+    padding-left: 7px;
+}
+
+.nbsp
+{
+  margin-bottom: 16px;
+}
+
+.stl
+{
+  margin-left: 5px;
+}
+
+.hrfm
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0;
+margin: 0;
+padding: 0;
+}
+
+.hme
+{
+  float: right; 
+  font-size: 20px;
+}
+
+.gwop
+{
+  text-decoration: underline;
+  text-decoration-color: #6c757d;
+}
+
+.pgs
+{
+  text-decoration: underline;
+  text-decoration-color: #6c757d;
+}
+
+.mrgt
+{
+  margin-top: 18px;
+}
+
+.prmd
+{
+font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .maintxt {
+   margin-top: 2rem;
+  }
+
+  .space
+  {
+    margin-top: 5px;
+  }
+
+  header
+  {
+    height: 50px;
+  }
+
+  footer
+  {
+    height:0px;
+    position: fixed;
+  }
+
+  .hr
+{
+ display: none;
+}
+
+.hrmob
+{
+display: block;
+}
+
+.footertxt > a
+{
+  margin: 1px;
+}
+
+.social
+{
+text-align: center;  
+margin-top: 3rem;
+}
+
+.thank
+{
+  margin-top: 1.3rem;
+}
+
+.linkbottom
+{
+  margin-top: 2.3rem;
+}
+.mrgt
+{
+  margin-bottom: 19px;
+}
+.prmd1
+{
+  margin-bottom: 22px;
+}
+}
