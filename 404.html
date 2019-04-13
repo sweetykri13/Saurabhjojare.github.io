@@ -3,7 +3,6 @@
  <head>
 
     <!-- Meta Tags -->
-    <meta name="google-site-verification" content="QhSYCZrWJ7_skoF4rySOmUS9GwrhUsCCvdvXshJO5iY"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,52 +31,16 @@
     <!-- Links End -->
 
     <!-- Custom styles for this template -->
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet">
+    <link href="./static/css/404.css" rel="stylesheet">
     <!-- Custom styles for this template End -->
-
-
-<style>
-  .toptxt {
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  min-width: 100%;
-  margin-bottom: 0px;
-}
-.not404
-{
- font-size: 11rem;
- margin-bottom: 20px;
-}
-.dot
-{
-  font-size: 10px;
-}
-
-.textpara
-{
-font-size: 20px;
-letter-spapxng:2.5px;
-font-weight: 1;
-}
-
-.bbt
-{
-  margin-top: 20px;
-}
-
-.arrowd
-{
-  margin:14px 0px 14px 0px;
-}
-</style>
 
  </head>
  <body>
     
  <!-- Header Start -->    
  <header>
-  <a href="../../index.html">saurabhjojare.github.io</a>
+  <a href="index">saurabhjojare.github.io</a>
    <span class="text-muted stl"> Error</span>
     <hr class="hr">
     <hr class="hrmob">
@@ -85,20 +48,22 @@ font-weight: 1;
  <!-- Header End --> 
 
  <!-- Begin page content -->
- <div class="container">
+
+ <div class="container animated shake fast">
   <div class="toptxt">
-  <div>
-    <h1 class="text-center not404">404</h1>
-    <p class="h3 text-center textpara">The page you looking for doesn't exist.</p>
-    <center><span class="fa fa-long-arrow-down arrowd"></span></center>
-    <p class="h3 text-center textpara">Let's get you back</p>
-    <center><span class="fa fa-long-arrow-down arrowd"></span></center>
-    <center>
-    <button class="btn btn-primary btn-lg bbt" onclick="goBack()">Go Back</button>
-    </center>
+   <div>
+     <h1 class="text-center not404">404</h1>
+     <p class="h3 text-center textpara">The page you looking for doesn't exist.</p>
+     <center><span class="fa fa-long-arrow-down arrowd"></span></center>
+     <p class="h3 text-center textpara">Let's get you back</p>
+     <center><span class="fa fa-long-arrow-down arrowd"></span></center>
+     <center>
+    <button onclick="goBack()" class="btn btn-primary btn-lg bbt">Go Back</button>
+   </center>
   </div>
+ </div>
 </div>
-</div>
+
   <!-- End page content -->
     
     <!-- Scripts -->
