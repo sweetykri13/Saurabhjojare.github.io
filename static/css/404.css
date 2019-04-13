@@ -54,3 +54,9 @@ font-weight: 1;
     text-decoration: none;
     color: #fff;
 }
+
+.footr
+{
+  margin-bottom: 0;
+  bottom: 0;
+}
