@@ -6,6 +6,7 @@ html {
 body {
   margin-bottom: 60px;
   min-height: 100%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .footer {
@@ -75,8 +76,10 @@ font-size: 25px;
 
 .linespace
 {
-  line-height: 22px;
-  letter-spacing:2px; 
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 26px;
+  font-size: 18px;
+
 }
 
 .footertxt > a
@@ -158,6 +161,7 @@ padding: 0;
 .mrgt
 {
   margin-top: 18px;
+  font-size: 16px;
 }
 
 .prmd
