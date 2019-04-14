@@ -84,7 +84,8 @@ font-size: 25px;
 
 .footertxt > a
 {
-  color: #000;  margin: 10px;
+  color: #000;  
+  margin: 10px;
 
 }
 
@@ -228,4 +229,38 @@ margin-top: 3rem;
 {
   margin-bottom: 22px;
 }
+}
+
+@media only screen and (max-width: 370px) {
+.footertxt > a
+{
+  margin: 0.5px;
+  font-size: 13.8px;
+}
+.se5
+{
+  font-size: 23px;
+}
+.stl
+{
+  margin-left: 1px;
+  font-size: 14px;
+}
+.maintxt
+{
+  margin-top: 10px;
+}
+.mycv
+{
+  font-size: 15px;
+}
+.se5w
+{
+  font-size: 28px;
+}
+.link
+{
+  font-size: 13.5px;
+}
+
 }
