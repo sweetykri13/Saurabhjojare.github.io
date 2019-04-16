@@ -108,7 +108,7 @@ text-align: right;
 
 .thank
 {
- margin-top: 2rem; 
+ margin-top: 1.5rem; 
 }
 
 .linkbottom
@@ -171,27 +171,27 @@ font-size: 20px;
 }
 
 @media only screen and (max-width: 480px) {
-  .maintxt {
+.maintxt {
    margin-top: 2rem;
   }
 
-  .space
+.space
   {
     margin-top: 5px;
   }
 
-  header
+header
   {
     height: 50px;
   }
 
-  footer
+footer
   {
     height:0px;
     position: fixed;
   }
 
-  .hr
+.hr
 {
  display: none;
 }
@@ -209,12 +209,12 @@ display: block;
 .social
 {
 text-align: center;  
-margin-top: 3rem;
+margin-top: 5rem;
 }
 
 .thank
 {
-  margin-top: 1.3rem;
+  margin-top: 2rem;
 }
 
 .linkbottom
@@ -262,5 +262,4 @@ margin-top: 3rem;
 {
   font-size: 13.5px;
 }
-
 }
