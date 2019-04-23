@@ -20,8 +20,8 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 63px; 
-  line-height: 60px;
+  height: 45px; 
+  line-height: 40px;
   background-color: #fff;
   margin-bottom: 0;
   text-align: center; 
@@ -33,7 +33,7 @@ header
   height: 60px;
   width: 100%;
   position: relative;
-  background-color: #fff;
+  text-align: center;
 }
 
 header > a {
@@ -51,15 +51,17 @@ header > a {
 
 .maintxt
 {
-  margin-top: 4.5rem;
-  font-weight: 0;
-  font-size: 18px;
-  margin-bottom: 0;
-  text-decoration: underline;
+  margin-top: 3rem;
+}
+
+.intro
+{
+font-size: 17.5px;
 }
 
 .link
 {
+  margin-top: 13px;
   margin-left: 0;
 }
 
@@ -98,14 +100,16 @@ font-size: 25px;
 
 .hr
 {
- max-width: 350px; 
- margin-left:0;
-
+ width: 350px;
+ margin-top: 8px;
 }
 
-.hrmob
+.back
 {
-  display: none;
+  font-weight: 200px;
+  font-size: 20px;
+  color: #0000EE;
+  text-decoration: underline;
 }
 
 .social
@@ -182,6 +186,16 @@ font-size: 20px;
    margin-top: 2rem;
   }
 
+.hr
+{
+width: 99%;
+}
+
+.hrfm
+{
+width: 99%;
+}
+
 .space
   {
     margin-top: 5px;
@@ -197,16 +211,6 @@ footer
     height:0px;
     position: fixed;
   }
-
-.hr
-{
- display: none;
-}
-
-.hrmob
-{
-display: block;
-}
 
 .footertxt > a
 {
