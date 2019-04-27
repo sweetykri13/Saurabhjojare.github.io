@@ -181,6 +181,16 @@ padding: 0;
 font-size: 20px;
 }
 
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.se5:hover
+{
+  color: #563d7c;
+}
+
 @media only screen and (max-width: 480px) {
 .maintxt {
    margin-top: 1rem;
@@ -273,5 +283,4 @@ margin-top: 5rem;
 {
   font-size: 13.5px;
 }
-
 }
