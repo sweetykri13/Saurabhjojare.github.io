@@ -11,29 +11,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
   min-height: 100%;
   font-family: 'Ubuntu', sans-serif;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 45px; 
-  line-height: 40px;
-  background-color: #fff;
-  margin-bottom: 0;
-  text-align: center; 
-}
-
-header
-{
-  padding: 5px;
-  height: 60px;
-  width: 100%;
-  position: relative;
-  text-align: center;
+  background: #fafafa;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
 header > a {
@@ -43,244 +24,273 @@ header > a {
   margin-left: 20px;
 }
 
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-}
-
-.maintxt
+.logo
 {
-  margin-top: 3rem;
+  float: left;
+  padding: 16px 0; 
+  font-family: 'Pacifico', cursive;
 }
 
-.intro
+nav
 {
-font-size: 17.5px;
+  float: right;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
 }
 
-.link
+header::after
 {
-  margin-top: 13px;
-  margin-left: 0;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.link > a
+nav ul
 {
-margin: 4px;
-margin-bottom: 0px;
-bottom: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.mycv
+nav li
 {
-float: right;
-font-size: 25px;
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 20px;
 }
 
-.space
+nav a
 {
-  margin-top:30px;
+text-decoration: none;
 }
-
-.linespace
-{
-  font-family: 'Ubuntu', sans-serif;
-  line-height: 26px;
-  font-size: 18px;
-
-}
-
-.footertxt > a
-{
-  color: #000;  
-  margin: 10px;
-
-}
-
-.hr
-{
- width: 350px;
- margin-top: 8px;
-}
-
-.back
-{
-  font-weight: 200px;
-  font-size: 20px;
-  color: #0000EE;
-  text-decoration: underline;
-}
-
-.social
-{
-text-align: right;  
-}
-
-.thank
-{
- margin-top: 1.5rem; 
-}
-
-.linkbottom
-{
-  margin-top: 2.3rem;
-}
-
-.text-left {
-    text-align: left;
-    padding-left: 7px;
-}
-
-.nbsp
-{
-  margin-bottom: 16px;
-}
-
-.stl
-{
-  margin-left: 5px;
-}
-
-.hrfm
-{
-margin-top: 0;
-margin-bottom: 0;
-padding-bottom: 0;
-padding-top: 0;
-margin: 0;
-padding: 0;
-}
-
-.hme
-{
-  float: right; 
-  font-size: 20px;
-}
-
-.gwop
-{
-  text-decoration: underline;
-  text-decoration-color: #6c757d;
-}
-
-.pgs
-{
-  text-decoration: underline;
-  text-decoration-color: #6c757d;
-}
-
-.mrgt
-{
-  margin-top: 18px;
-  font-size: 16px;
-}
-
-.prmd
-{
-font-size: 20px;
-}
-
-a:hover {
-    color: #0056b3;
-    text-decoration: none;
-}
-
-.se5:hover
-{
-  color: #563d7c;
-}
-
-@media only screen and (max-width: 480px) {
-.maintxt {
-   margin-top: 1rem;
-  }
-
-.hr
-{
-width: 99%;
-}
-
-.hrfm
-{
-width: 99%;
-}
-
-.space
-  {
-    margin-top: 5px;
-  }
 
 header
-  {
-    height: 50px;
-  }
-
-footer
-  {
-    height:0px;
-    position: fixed;
-  }
-
-.footertxt > a
 {
-  margin: 1px;
+      border-bottom: 1px solid rgba(0,0,0,.0975);
+      top: 0;
+      z-index: 1;
+      height: 77px;
+      padding-left: 150px;
+      padding-right: 150px; 
+      background-color: #fff;
 }
 
-.social
+.img
 {
-text-align: center;  
-margin-top: 5rem;
+  width: 208px;
+  height:208px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
-.thank
+.imgflt
 {
-  margin-top: 2rem;
+  float: right;
 }
 
-.linkbottom
+.psj
 {
-  margin-top: 2.3rem;
-}
-.mrgt
-{
-  margin-bottom: 19px;
-}
-.prmd1
-{
-  margin-bottom: 22px;
-}
+    font-weight: 300;
+    color:#262626;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 28px;
+    line-height: 32px;
+    margin: -5px 0 -6px;
+    padding-top: 50px;
+    padding-left: 25px;
 }
 
-@media only screen and (max-width: 370px) {
-.footertxt > a
+
+.button
 {
-  margin: 0.5px;
-  font-size: 13.8px;
+    outline: 0;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 300
 }
-.se5
+
+.button a:hover
 {
-  font-size: 23px;
+  text-decoration: none;
+  color: #fff;
 }
-.stl
+
+.button a
 {
-  margin-left: 1px;
-  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
 }
-.maintxt
+
+.btnee
 {
-  margin-top: 10px;
+  padding-left: 80px;
+  padding-top:25px;
+  font-weight: 300;
 }
-.mycv
+
+.brdtp
 {
-  font-size: 15px;
+  border-top: 1px solid #efefef;
+
 }
-.se5w
+
+.btntxt
 {
-  font-size: 28px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
 }
-.link
+
+.cont
 {
-  font-size: 13.5px;
+  width: 80%;
+  padding-top: 50px;
 }
+
+
+.romg
+{
+margin-top: 25px;
 }
+
+.mobile
+{
+  display: none;
+}
+
+/** Mobile View **/
+
+@media only screen and (max-width: 720px) {
+
+.mobile
+{
+  display: block;
+  width: 100%;
+}
+
+.desktop
+{
+  display: none;
+}
+
+header
+{
+      border-bottom: 1px solid rgba(0,0,0,.0975);
+      top: 0;
+      z-index: 1;
+      webkit-transition: height .2s ease-in-out;
+      transition: height .2s ease-in-out;
+      height: 40px;
+      background-color: #fff;
+      padding: 0px;
+      margin: 0px;
+      margin-right: 0px;
+}
+
+.mbhead
+{
+text-align: center;
+background-color: #fff;
+height: 45px;
+z-index: 11;
+margin: 0;
+padding: 0;
+border-bottom: 1px solid rgba(0,0,0,.0975);
+color: #262626;
+justify-content: center;
+font-size: 20px;
+line-height: 40px;
+font-weight: 400;
+font-family: 'Pacifico', cursive;
+}
+
+.img
+{
+  width: 90px;
+  height:90px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.mbimg
+{
+margin-top: 35px;
+}
+
+.psj
+{
+    font-weight: 300;
+    color:#262626;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 28px;
+    line-height: 32px;
+    margin: -5px 0 -6px;
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 55px;
+}
+
+.btnee
+{
+  padding-left: 0px;
+  padding-top:25px;
+  font-weight: 300;
+}
+
+button
+{
+  width: 250px;
+}
+
+.mbnav
+{
+padding-top: 120px;
+}
+
+.mbnav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 1px solid rgba(0,0,0,.0975);
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.mbnav li
+{
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.mbnav a
+{
+text-decoration: none;
+margin: 40px;
+
+}
+
+.mbtexti
+{
+margin: 13px;
+}
+
+}
+
+
