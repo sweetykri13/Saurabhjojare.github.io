@@ -303,8 +303,9 @@ margin: 13px;
 }
 
 .img
-{ width:100px;
-  height:100px;
+{ 
+  width:90px;
+  height:90px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
@@ -371,4 +372,5 @@ button
 {
   width: 180px;
 }
+
 }
