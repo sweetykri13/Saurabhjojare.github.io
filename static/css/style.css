@@ -215,8 +215,8 @@ font-family: 'Pacifico', cursive;
 
 .img
 {
-  width: 90px;
-  height:90px;
+  width:  90px;
+  height: 90px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
@@ -304,8 +304,8 @@ margin: 13px;
 
 .img
 { 
-  width:80px;
-  height:80px;
+  width:85px;
+  height:85px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
