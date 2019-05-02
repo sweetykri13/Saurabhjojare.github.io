@@ -215,8 +215,8 @@ font-family: 'Pacifico', cursive;
 
 .img
 {
-  width: 90px;
-  height:90px;
+  width: 75px;
+  height:75px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
@@ -365,5 +365,4 @@ button
 {
   width: 230px;
 }
-
 }
