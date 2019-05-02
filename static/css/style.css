@@ -215,8 +215,8 @@ font-family: 'Pacifico', cursive;
 
 .img
 {
-  width: 75px;
-  height:75px;
+  width: 90px;
+  height:90px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
@@ -297,8 +297,8 @@ margin: 13px;
 @media (max-width: 575.98px) { 
 
 .img
-{ width: 70px;
-  height:70px;
+{ width: 75px;
+  height:75px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
@@ -314,7 +314,7 @@ margin: 13px;
     color:#262626;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 32px;
     padding-top: 50px;
     padding-left: 0px;
@@ -363,6 +363,7 @@ margin: 13px;
 
 button
 {
-  width: 230px;
+  width: 200px;
 }
+
 }
