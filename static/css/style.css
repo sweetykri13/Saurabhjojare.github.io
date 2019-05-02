@@ -159,7 +159,7 @@ header
 
 .romg
 {
-margin-top: 25px;
+margin-top: 10px;
 }
 
 .mobile
@@ -167,6 +167,49 @@ margin-top: 25px;
   display: none;
 }
 
+.foot
+{
+margin-left: 35px;
+margin-top: 45px;
+}
+
+.foot ul
+{
+  list-style-type: none;
+  margin: 0;
+  font: inherit;
+}
+
+.foot li
+{
+  display: inline-block;
+  margin-bottom: 7px;
+    margin-right: 16px;
+}
+
+.foot a:active
+{
+  opacity: .5;
+}
+
+.foot a:visited
+{
+    color: #003569;
+    text-decoration: none;
+}
+
+.foot a
+{
+    color: #003569;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.foot a:hover
+{
+color: #003569;
+    text-decoration: none;
+}
 /** Mobile View **/
 
 @media only screen and (max-width: 720px) {
@@ -229,7 +272,7 @@ font-family: 'Pacifico', cursive;
 
 .mbimg
 {
-margin-top: 35px;
+margin-top: 23px;
 }
 
 .psj
@@ -323,7 +366,7 @@ margin: 13px;
     white-space: nowrap;
     font-size: 28px;
     line-height: 32px;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-left: 0px;
     margin-left: 0px;
     padding-right: 0px;
@@ -331,7 +374,7 @@ margin: 13px;
 
 .mbnav
 {
-padding-top: 100px;
+padding-top: 70px;
 }
 
 .mbnav ul
@@ -371,6 +414,13 @@ margin: 13px;
 button
 {
   width: 180px;
+}
+
+.foot
+{
+margin-left: 0px;
+margin-top: px;
+text-align: center;
 }
 
 }
