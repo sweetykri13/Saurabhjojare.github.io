@@ -17,13 +17,6 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
-header > a {
-  color: #333;
-  font-weight: 0;
-  font-size: 28px;
-  margin-left: 20px;
-}
-
 .logo
 {
   float: left;
@@ -38,11 +31,29 @@ nav
   flex-direction: row;
 }
 
+header
+{
+      border-bottom: 1px solid rgba(0,0,0,.0975);
+      top: 0;
+      z-index: 1;
+      height: 77px;
+      padding-left: 150px;
+      padding-right: 150px; 
+      background-color: #fff;
+}
+
 header::after
 {
   content: "";
   display: table;
   clear: both;
+}
+
+header > a {
+  color: #333;
+  font-weight: 0;
+  font-size: 28px;
+  margin-left: 20px;
 }
 
 nav ul
@@ -62,17 +73,6 @@ nav li
 nav a
 {
 text-decoration: none;
-}
-
-header
-{
-      border-bottom: 1px solid rgba(0,0,0,.0975);
-      top: 0;
-      z-index: 1;
-      height: 77px;
-      padding-left: 150px;
-      padding-right: 150px; 
-      background-color: #fff;
 }
 
 .img
@@ -178,7 +178,7 @@ margin-top: 17px;
 .foot li
 {
   display: inline-block;
-  margin-bottom: 7px;
+  margin-bottom: 30px;
     margin-right: 16px;
 }
 
@@ -206,6 +206,50 @@ color: #003569;
     text-decoration: none;
 }
 
+.footi
+{
+margin-left: 35px;
+margin-top: 17px;
+}
+
+.footi ul
+{
+  list-style-type: none;
+  margin: 0;
+  font: inherit;
+}
+
+.footi li
+{
+  display: inline-block;
+  margin-bottom: 15px;
+    margin-right: 16px;
+}
+
+.footi a:active
+{
+  opacity: .5;
+}
+
+.footi a:visited
+{
+    color: #003569;
+    text-decoration: none;
+}
+
+.footi a
+{
+    color: #003569;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.footi a:hover
+{
+color: #003569;
+    text-decoration: none;
+}
+
 .brder
 {
     box-sizing: border-box;
@@ -223,9 +267,19 @@ color: #003569;
   padding: 30px 50px;
 }
 
+.liitem ul
+{
+list-style-type: none;
+}
+
+.liitem li
+{
+  font-size: 18px;
+}
+
 /** Mobile View **/
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 730px) {
 
 .mobile
 {
@@ -347,8 +401,6 @@ margin: 40px;
 margin: 13px;
 }
 
-}
-
 
 @media (max-width: 575.98px) { 
 
@@ -436,9 +488,35 @@ margin-top: px;
 text-align: center;
 }
 
-.nothinggonna
+.mbnavint
 {
-  padding: 30px 20px;
+padding-top: 20px;
 }
 
+.mbnavint ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 1px solid rgba(0,0,0,.0975);
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.mbnavint li
+{
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.mbnavint a
+{
+text-decoration: none;
+margin: 22px;
+
+}
+
+.foot li
+{
+  margin-right: 9px;
+}
 }
