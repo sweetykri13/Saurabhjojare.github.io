@@ -297,8 +297,8 @@ margin: 13px;
 @media (max-width: 575.98px) { 
 
 .img
-{ width: 75px;
-  height:75px;
+{ width: 70px;
+  height:70px;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
