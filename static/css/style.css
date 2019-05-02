@@ -294,3 +294,76 @@ margin: 13px;
 }
 
 
+@media (max-width: 575.98px) { 
+
+.img
+{ width: 65px;
+  height:65px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.psj
+{
+    font-weight: 300;
+    color:#262626;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 28px;
+    line-height: 32px;
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.mbnav
+{
+padding-top: 100px;
+}
+
+.mbnav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 1px solid rgba(0,0,0,.0975);
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.mbnav li
+{
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.mbnav a
+{
+text-decoration: none;
+margin: 22px;
+
+}
+
+.mbtexti
+{
+margin: 13px;
+}
+
+.btnee
+{
+  padding-left: 0px;
+  padding-top:25px;
+  font-weight: 300;
+}
+
+button
+{
+  width: 200px;
+}
+
+}
