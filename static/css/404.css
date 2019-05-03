@@ -11,85 +11,108 @@ body {
  min-height:100%;
 }
 
-.toptxt {
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  min-width: 100%;
-  margin-bottom: 0px;
-}
-.not404
+.footer
 {
- font-size: 11rem;
- margin-bottom: 20px;
-}
-.dot
-{
-  font-size: 10px;
+margin-left: 145px;
+margin-top: 17px;
 }
 
-.textpara
+.footer ul
 {
-font-size: 20px;
-letter-spapxng:2.5px;
-font-weight: 1;
+  list-style-type: none;
+  margin: 0;
+  font: inherit;
 }
 
-.bbt
+.footer li
 {
-  margin-top: 20px;
-}
-
-.arrowd
-{
-  margin:14px 0px 14px 0px;
-}
-
-.buttoncss {
-  background-color: #007bff;
-  border: none;
-  color: #fff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 0;
-   margin-bottom: 0;
-    bottom: 0;
-    margin-top: 5px;
+  margin-bottom: 30px;
+    margin-right: 16px;
 }
 
-.buttoncss:hover {
+.footer a:active
+{
+  opacity: .5;
+}
+
+.footer a:visited
+{
+    color: #003569;
     text-decoration: none;
-    color: #fff;
 }
 
-.footr
+.footer a
 {
-  margin-bottom: 0;
-  bottom: 0;
+    color: #003569;
+    text-decoration: none;
+    vertical-align: baseline;
 }
 
-@media only screen and (max-width: 480px) {
-.top404
+.footer a:hover
 {
-font-size: 25px;
+color: #003569;
+    text-decoration: none;
 }
-.not404
+
+nav li
 {
-  font-size: 8.5rem;
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 27px;
 }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pagenot
+{
+	text-align: center;
+	margin-top: 137px;
+    position: relative;
+}
+
+@media only screen and (max-width: 720px) {
+.desktop
+{
+	display: block;
+}
+
+header
+{
+      border-bottom: 1px solid rgba(0,0,0,.0975);
+      top: 0;
+      z-index: 1;
+      height: 77px;
+      background-color: #fff;
+}
+
+.pagenot
+{
+	text-align: center;
+	margin-top: 60px;
+    position: relative;
+}
+
+.footer
+{
+margin-left:0;
+}
+
+.logo
+{
+ padding: 19px 0; 
+}
+
 }
 
 @media only screen and (max-width: 370px) {
-.top404
-{
-font-size: 20px;
-}
-.not404
-{
-  font-size: 6rem;
-}
+
 }
