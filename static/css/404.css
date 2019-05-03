@@ -160,8 +160,13 @@ header
   position: absolute;
 }
 
-.foot u a
+.foot ul a li
 {
   text-align: center;
 }
+
+.footer ul a li
+{
+  text-align: center;
+} 
 }
