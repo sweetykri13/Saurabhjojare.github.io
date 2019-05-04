@@ -188,13 +188,14 @@ text-decoration: none;
 .intoful ul
 {
   list-style: none;
+  padding: 0px;
 }
 
-.intoful
+.progbottom
 {
-  
+color: #999; 
+margin-bottom: 30px;
 }
-
 /** Footer **/
 
 .mylist
@@ -253,6 +254,11 @@ margin-left: 12px;
     -webkit-box-sizing: border-box;
     padding: 15px 15px;
     margin:0.5px;
+}
+
+.progbottomdes
+{
+  margin-bottom: 28px;
 }
 
 
@@ -476,6 +482,30 @@ margin-left: 8px;
 .conframe
 {
   padding: 22px 20px;
+}
+
+.intoful ul
+{
+  padding: 0;
+}
+
+.inttop {
+    margin-top: 0px;
+}
+
+.progbottom
+{
+  margin-bottom: 8px;
+}
+
+.progtoppro
+{
+  margin-top: 8px;
+}
+
+.progbottomdes
+{
+  margin-bottom: 8px;
 }
 
 }
