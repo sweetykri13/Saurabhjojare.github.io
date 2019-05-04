@@ -469,3 +469,11 @@ margin-left: 8px;
 }
 
 }
+
+@media (max-width: 320px) { 
+  
+.buttonmobile {
+    width: 150px;
+}
+
+}
