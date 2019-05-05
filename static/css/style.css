@@ -508,6 +508,12 @@ margin-left: 8px;
   margin-bottom: 8px;
 }
 
+.workful dl, ol, ul
+{
+  padding-left: 17px;
+}
+
+
 }
 
 @media (max-width: 320px) { 
