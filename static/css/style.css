@@ -261,6 +261,11 @@ margin-left: 12px;
   margin-bottom: 28px;
 }
 
+.eduname
+{
+  color: #999; 
+  margin-bottom: 20px;
+}
 
 /** Responsive **/
 
@@ -513,6 +518,11 @@ margin-left: 8px;
   padding-left: 17px;
 }
 
+.eduname
+{
+  color: #999; 
+  margin-bottom: 8px;
+}
 
 }
 
