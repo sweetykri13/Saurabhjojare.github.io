@@ -230,6 +230,12 @@ background-color: transparent;
   text-decoration: none;
 }
 
+.nbign:hover
+{
+  color: #262626;
+  text-decoration: none;
+}
+
 .n78
 {
 color: #999;
