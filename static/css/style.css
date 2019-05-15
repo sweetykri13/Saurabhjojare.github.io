@@ -158,7 +158,6 @@ text-decoration: none;
 
 .frame
 {
-    pointer-events: none;
     z-index: 1;
     border: 1px solid #efefef;
     border-radius: 3px;
@@ -254,6 +253,11 @@ margin-bottom: 30px;
   font-size: 20px;
 }
 
+.n80:hover
+{
+  text-decoration: none;
+}
+
 .n81
 {
   color: #999;
@@ -282,6 +286,19 @@ font-size: 17px;
 margin-bottom: 0px;
 }
 
+.n86 a
+{
+margin-top: 0px;
+font-size: 30px;
+color: #003569;
+text-decoration: none;
+margin-top: 0px;
+}
+
+.n87  {
+    margin-bottom: 0.2rem;
+}
+
 #pogras1
 {
 border-radius: 0px;
@@ -308,6 +325,10 @@ margin-top: 0.5rem;
   color: #3897f0;
 }
 
+.tw
+{
+  color: #1da1f2;
+}
 
 /** Footer **/
 
@@ -395,7 +416,6 @@ margin-left: 12px;
 
 .frame
 {
-    pointer-events: none;
     z-index: 1;
     border: 1px solid #efefef;
     border-radius: 3px;
