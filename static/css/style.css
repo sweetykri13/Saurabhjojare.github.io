@@ -296,7 +296,12 @@ margin-top: 0px;
 }
 
 .n87  {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.25rem;
+}
+
+.n88
+{
+  margin-top: 10px;
 }
 
 #pogras1
@@ -466,7 +471,6 @@ header
 
 .frame
 {
-    pointer-events: none;
     z-index: 1;
     border: 1px solid #efefef;
     border-radius: 3px;
