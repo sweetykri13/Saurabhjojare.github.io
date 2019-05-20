@@ -1,6 +1,6 @@
 <!--
  * Created By Saurabh Jojare (https://github.com/saurabhjojare)
- * Saurabh Jojare v2.0 (http://saurabhjojare.github.io)
+ * Saurabh Jojare v3.0 (http://saurabhjojare.github.io)
  * Licensed under MIT (https://github.com/saurabhjojare/Saurabhjojare.github.io/blob/master/LICENSE)
 -->
 
@@ -35,8 +35,6 @@
     <meta property="og:description" content="Welcome to official website & curriculum vitae of Saurabh Jojare - Web Designer & Developer. He is studying Bsc Computer Science at Savitribai Phule Pune University, Pune, India.">
     <meta property="og:image" content="https://raw.githubusercontent.com/saurabhjojare/Saurabhjojare.github.io/master/photo.jpeg">
     <meta property="og:url" content="https://saurabhjojare.github.io/">
-
-    <!-- For Facebook End--> 
     
     <!-- For Twitter--> 
 
@@ -46,16 +44,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@saurabhjojare">
     <meta name="twitter:image:alt" content="Saurabh Jojare's Image">
-
-    <!-- For Twitter--> 
-
-    <!-- Meta Tags End -->
-
-    <title>Saurabh Jojare's</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Bootstrap core CSS End -->
 
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -67,23 +55,31 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Links End -->
+    <link rel="stylesheet" type="text/css" href="./static/css/lightbox.min.css">
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap core CSS End -->
 
     <!-- Custom styles for this template -->
     <link href="./static/css/style.css" rel="stylesheet">
     <!-- Custom styles for this template End -->
-  
+
+  <!-- Remove this if your are using this template-->
   <!-- Begin Inspectlet Asynchronous Code -->
-<script type="text/javascript">
-(function() {
-window.__insp = window.__insp || [];
-__insp.push(['wid', 78095209]);
-var ldinsp = function(){
-if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=78095209&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-setTimeout(ldinsp, 0);
-})();
-</script>
-<!-- End Inspectlet Asynchronous Code -->
+
+   <script type="text/javascript">
+   (function() {
+   window.__insp = window.__insp || [];
+   __insp.push(['wid', 78095209]);
+   var ldinsp = function(){
+   if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=78095209&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+   setTimeout(ldinsp, 0);
+   })();
+   </script>
+
+   <!-- End Inspectlet Asynchronous Code -->
+
+     <title>Saurabh Jojare's</title>
 
  </head>
  <body>
@@ -106,15 +102,15 @@ setTimeout(ldinsp, 0);
 </div>
 </header>
 
- <!-- Navbar End --> 
-
  <!-- Begin page content -->
 
 <div class="container-fluid n82">
 <div class="row">
 <div class="col">
 <div class="img-float">
-<img src="photo.jpeg" alt="Saurabh's Photo" class="img-thumbnail my-img">
+<a href="photo.jpg" data-lightbox="Saurabh's Photo">
+<img src="photo.jpg" alt="Saurabh's Photo" class="img-thumbnail my-img">
+</a>
 </div>
 </div>
 <div class="col-7">
@@ -139,7 +135,9 @@ setTimeout(ldinsp, 0);
 <div class="row">
 <div class="col-4">
 <div class="mobileimg">
+<a href="photo.jpeg" data-lightbox="Saurabh's Photo">
 <img src="photo.jpeg" alt="Saurabh's Photo" class="img-thumbnail imgmobile">
+</a>
 </div>
 </div>
 <div class="col-8">
@@ -181,13 +179,10 @@ setTimeout(ldinsp, 0);
 </div>
 </div>
 </div>
-
-  <!-- End page content -->
   
  <!-- Footer-->
 
 <div class="container widthoffooter">
-<div class="">
 <div class="bottomnavmobile">
 <div class="mylist"> 
 <ul>
@@ -199,14 +194,21 @@ setTimeout(ldinsp, 0);
 </div>
 </div>
 </div>
-</div>
-
- <!-- Footer End -->
     
     <!-- Scripts -->
+
     <!-- Structured Data   -->
+
     <script src="Structuredata.js"></script>
-    <!-- Structured Data End -->
+
+    <script src="./static/js/lightbox-plus-jquery.min.js"></script>
+    
+    <script>
+    lightbox.option({
+      'showImageNumberLabel': false
+    })
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
