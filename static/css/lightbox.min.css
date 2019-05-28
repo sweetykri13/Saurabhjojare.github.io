@@ -58,7 +58,7 @@ body.lb-disable-scrolling
 	height:250px;
 	margin:0 auto;
 	border-radius:4px;
-	background-color:transparent;
+	background-color:#ffffff;
 }
 
 .lb-loader,.lb-nav
@@ -83,8 +83,8 @@ body.lb-disable-scrolling
 .lb-cancel
 {
 	display:block;
-	width:200px;
-	height:200px;
+	width:32px;
+	height:32px;
 	margin:0 auto;
 	background:url(../docs/loading.gif) no-repeat;
 }
