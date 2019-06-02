@@ -5,4 +5,4 @@ Created with the help of [Bootstrap](http://getbootstrap.com)
 
 If you want to give me your own suggestions
 
-Email `saurabhjojare11@gmail.com` or [Fill feedback form](https://forms.gle/NkvvekCaF4j76bhz8)
+Email: `saurabhjojare11@gmail.com` or [Fill feedback form](https://forms.gle/NkvvekCaF4j76bhz8)
