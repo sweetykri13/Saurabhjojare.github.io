@@ -6,16 +6,12 @@
   "givenName": "Saurabh",
   "url": "https://saurabhjojare.github.io",
   "email": "saurabhjojare11@gmail.com",
-  "birthDate": "02/02/2000",
-  "birthPlace": "Beed, Maharashtra, India",
   "affiliation": "Savitribai Phule Pune University",
   "birthDate": "2 Feb 2000",
-  "email": "saurabhjojare11@gmail.com",
   "alumniOf": "Savitribai Phule Pune University",
   "gender": "http://schema.org/Male",
-  "hasOccupation": "Web Designer & Developer",
+  "hasOccupation": "Full-Stack Web Developer",
   "nationality": "Indian",
-  "telephone": "+917083900700",
   "image": "https://avatars1.githubusercontent.com/u/32615499?s=460&v=4",
   
  
