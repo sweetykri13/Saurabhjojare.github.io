@@ -263,6 +263,11 @@ color: #262626;
 font-size: 16px;
 }
 
+#n86
+{
+  padding: 7px;
+}
+
 .n86 a
 {
 color: #003569;
@@ -284,6 +289,11 @@ text-decoration: none;
   margin-bottom: 20px;
 }
 
+.n90
+{
+  margin-left: 16px;
+}
+
 #pogras1
 {
 border-radius: 0px;
@@ -298,11 +308,6 @@ border-radius: 0px;
 line-height: 18px; 
 height: 20px;
 margin-top: 0.5rem; 
-}
-
-#n86
-{
-  padding: 7px;
 }
 
 .lastc
