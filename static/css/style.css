@@ -2,745 +2,153 @@
  * Created By Saurabh Jojare (https://github.com/saurabhjojare)
  * Saurabh Jojare v3.0 (http://saurabhjojare.github.io)
  * Licensed under MIT (https://github.com/saurabhjojare/Saurabhjojare.github.io/blob/master/LICENSE)
--->
 */
 
-/** Body & Head**/
-
-html {
+html 
+{
   position: relative;
   min-height: 100%;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Ubuntu', sans-serif;
-  background: #121212;
-  margin-bottom: 63px;
-}
-
-/** Header **/
-
-nav
+body 
 {
-  float: right;
-}
-
-header
-{
-      border-bottom: 1px solid #000;
-      top: 0;
-      height: 77px;
-      padding-left: 150px;
-      padding-right: 150px;
-      background-color: #121212;
-      color: #fff;
-}
-
-header a {
-  color: #333;
-  font-weight: 0;
-  font-size: 28px;
-}
-
-nav ul
-{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-nav li
-{
-  display: inline-block;
-  margin-left: 15px;
-  padding-top: 20px;
-}
-
-nav a
-{
-text-decoration: none;
-}
-
-/** IMG & Name */
-
-.name
-{
-  float: left;
-  padding: 16px 0;
-  font-family: 'Pacifico', cursive;
-}
-
-.img-float
-{
-  float: right;
+  margin-bottom: 60px; 
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: #f3ebe3;
 }
 
 .my-img
 {
-  width: 208px;
-  height:208px;
-  border-radius: 50%;
+width: 208px;
+height: 208px;
+border-radius: 50%;
 }
 
-.img-thumbnail
+.main
 {
-background-color: #121212;
-border: 1px solid #121212;
+  margin-top: 50px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.navbar-dark .navbar-brand 
+{
+    color: #f3ebe3;
 }
 
 .my-name
 {
-    font-weight: 300;
-    color:#fff;
-    font-size: 28px;
-    line-height: 32px;
-    margin: -5px 0 -6px;
-    padding-top: 50px;
-    padding-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.buttonstyle
+.my-work
 {
-  padding-left: 50px;
-  padding-top:17px;
-  font-weight: 300;
+margin-bottom: 6.5px;
+font-size: 21px;
 }
 
-.button
+.my-cv
 {
-    outline: 0;
-    background-color: #3d332d;
-    border: 1px solid #121212;
-    color: #fff;
-    border-radius: 2px;
-    font-weight: 300;
-    width:150px;
-    height: 41px;
+  margin-top: 8px;
+  font-size: 20px;
 }
-
-.button a:hover
-{
-  text-decoration: none;
-  color: #fff;
-}
-
-.button a
-{
-  color: #fff;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: initial;
-}
-
-/** Body Content**/
 
 .intro
 {
-  font-size: 24px;
-  font-weight: 400;
-  margin-top: 0px;
-  color: #fff;
+  margin: 20px;
 }
 
-.content
+.second p
 {
-  width: 80%;
+  margin: 20px;
 }
 
-.frame
+.footer 
 {
-    border: 1px solid #121212;
-    border-radius: 6px;
-    background-color: #000;
-    padding: 0 16px 20px
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+  line-height: 60px; 
+  color: #f3ebe3;
 }
 
-.innerframe
+.menu a
 {
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #000;
-    padding: 35px 50px;
-
-}
-
-.mobile
-{
-  display: none;
-}
-
-.inttop
-{
-  margin-top: 17px;
-}
-
-.intoful ul
-{
-  list-style: none;
-  padding: 0px;
-}
-
-.progbottom
-{
-color: #999;
-margin-bottom: 30px;
-}
-
-.intii
-{
-color: #999;
-margin-bottom: 20px;
-}
-
-.namedd
-{
-  color: #262626;
+  margin-right: 12px;
+  text-transform: uppercase;
   text-decoration: none;
+  color: #6c757d;
 }
 
-.nico1
-{
-  font-size: 40px;
-  color: #ada8a5;
-background-color: transparent;
-font-weight: 0px;
-}
-
-.nico
-{
-font-size:28px;
-color: #ada8a5;
-background-color: transparent;
-font-weight: 0px;
-}
-
-.nicod
-{
-font-size:30px;
-color: #f1eeec;
-background-color: transparent;
-}
-
-.nbign
-{
-  color: #fff;
-  text-decoration: none;
-}
-
-
-
-.nbign:hover
-{
-  color: #fff;
-  text-decoration: none;
-}
-
-.n78
-{
-color: #999;
-margin-bottom: 30px;
-}
-
-.n79
-{
-  color: #999;
-  font-size: 18px;
-  line-height: 0px;
-}
-
-.n80
-{
-  font-size: 22px;
-  color: #fff;
-}
-
-.n80:hover
-{
-  text-decoration: none;
-  color: #f1f1f1;
-}
-
-.n81
-{
-  color: #999;
-}
-
-.n82
-{
-  margin-bottom: 45px;
-  margin-top: 18px;
-}
-
-.n83
-{
-  padding: 0;
-}
-
-.n84
-{
-color: #fff;
-font-size: 16px;
-}
-
-#n86
-{
-  padding: 7px;
-}
-
-.n86 a
-{
-color: #003569;
-text-decoration: none;
-}
-
-.p87
-{
-  font-size: 22px;
-}
-
-.n88
+.cert
 {
   margin-top: 10px;
 }
 
-.n90
+.edu
 {
-  margin-left: 16px;
+  margin-top: 10px;
 }
 
-.n91
+.workcol
 {
-  color: #fff;
+  text-align: left;
+  margin-left: 16.2%;
 }
 
-.progress-bar
+.procol
 {
-background-color: #121212;
-}
-
-.progress
-{
-  background-color: #fff;
-}
-
-#pogras1
-{
-border-radius: 0px;
-line-height: 18px;
-height: 20px;
-margin-top: 0.9rem;
+  text-align: left;
+  margin-left: 17.8%;
 }
 
 #pogras
 {
 border-radius: 0px;
 line-height: 18px;
-height: 20px;
-margin-top: 0.5rem;
+height: 32px;
+margin-top: 0.6rem;
+width: 80%;
 }
 
-.lastc
+#probar
 {
-  color: #f1eeec;
+  padding: 7px;
 }
 
-.tw
+.progress-bar
 {
-  color: #1da1f2;
+background-color: #272422;
 }
 
-.fourk
+.progress
 {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #f0e3d6;
 }
 
-.movesj
+.btn
 {
-  margin-left: 24px;
+  border-radius: 0rem;
 }
 
-/** Footer **/
-
-.mylist
+.fzf
 {
-  margin-top: 15px;
+    padding-top: 1000;
+    min-height: 100%;
+    height: 100%;
+    margin-top: 100px; 
 }
 
-.mylist ul
+.fzf h1
 {
-  list-style-type: none;
-  margin: 20px 0;
-  padding: 0;
+  
+  font-size: 12rem;
+   
 }
 
-.mylist li
-{
-  display: inline-block;
-  list-style: none;
-  text-align: -webkit-match-parent;
-  font-size: 13px;
-  margin-right: auto;
-  margin-right: auto;
-  letter-spacing: 1px;
-}
-
-.mylist li:not(:first-child)
-{
-margin-left: 12px;
-}
-
-.mylist a
-{
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.widthoffooter
-{
-  bottom: 0;
-  margin-bottom: 0;
-  position: absolute;
-}
-
-.mylist
-{
-  margin-left: 11.2%;
-}
-
-.concolumns
-{
-    z-index: 1;
-    border: 1px solid #efefef;
-    border-radius: 0px;
-    background-color: #fff;
-    -webkit-box-sizing: border-box;
-    padding: 15px 15px;
-    margin:0.5px;
-}
-
-.progbottomdes
-{
-  margin-bottom: 28px;
-}
-
-.eduname
-{
-  color: #999;
-  margin-bottom: 20px;
-}
-
-/** Responsive **/
-
-/** Content **/
-
-/** Small devices (landscape phones, 576px and up) **/
-
-@media (min-width: 576px) and (max-width: 768px) {
-
-.content
-{
-  width: 100%;
-}
-
-.frame
-{
-    z-index: 1;
-    border: 1px solid #121212;
-    border-radius: 6px;
-    background-color: #000;
-    -webkit-box-sizing: border-box;
-    padding: 0 0px 0px
-}
-
-.innerframe
-{
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #000;
-    padding: 30px 30px;
-}
-
-header
-{
-      border-bottom: 1px solid rgba(0,0,0,.0975);
-      top: 0;
-      z-index: 1;
-      height: 77px;
-      padding-left: 0px;
-      padding-right: 0px;
-      background-color: #121212;
-}
-
-.mylist
-{
-  margin-left: 2%;
-}
-
-}
-
-/** Extra small devices (portrait phones, less than 576px) **/
-
-@media (max-width: 575.98px) {
-
-.desktop
-{
-  display: none;
-}
-
-.content
-{
-  width: 95%;
-}
-
-.frame
-{
-    z-index: 1;
-    border: 1px solid #121212;
-    border-radius: 3px;
-    background-color: #000;
-    -webkit-box-sizing: border-box;
-    padding: 0 0px 0px
-}
-
-.innerframe
-{
-    margin-left: 0;
-    margin-right: 0;
-    background-color: #000;
-    padding: 0px 20px;
-}
-
-.mobile
-{
-  display: block;
-}
-
-.headermobile
-{
-    border-bottom: 1px solid #000;
-    top: 0;
-    z-index: 1;
-    height: 45px;
-    background-color: #121212;
-    padding: 0px;
-    margin: 0px;
-    margin-right: 0px;
-}
-
-.namemobile
-{
-    text-align: center;
-    z-index: 11;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    justify-content: center;
-    font-size: 20px;
-    line-height: 40px;
-    font-weight: bold;
-    font-family: 'Pacifico', cursive;
-}
-
-.for6s
-{
-  color: #fff;
-}
-
-.imgmobile
-{
-  border-radius: 50%;
-  float: right;
-}
-
-.contentmargin
-{
-  margin-top: 20px;
-}
-
-.buttonmobile
-{
-    outline: 0;
-    background-color: #3d332d;
-    border: 1px solid #121212;
-    color: #fff;
-    border-radius: 2px;
-    font-weight: 300;
-    width: 160px;
-    height: 41px;
-}
-
-.buttonmobile a
-{
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.mobilenavigation
-{
-  padding-top: 50px;
-  margin-bottom: 10px;
-}
-
-.iconmobile
-{
-  font-size: 30px;
-  color: #ada8a5;
-  background: transparent;
-}
-
-.listmobilenav ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    text-align: center;
-}
-
-.listmobilenav li
-{
-display: inline-block;
-margin-top: 10px;
-margin-bottom: 4.5px;
-}
-
-.listmobilenav a
-{
-    text-decoration: none;
-    margin: 16px;
-}
-
-.lastc {
-    color: #f1eeec;
-}
-
-.bottomnavmobile
-{
-  bottom: 0;
-  margin-bottom:0px;
-  position: relative;
-}
-
-.mylist li
-{
-  display: inline-block;
-  list-style: none;
-  text-align: -webkit-match-parent;
-  font-size: 12px;
-  margin-right: auto;
-  margin-right: auto;
-}
-
-.mylist li:not(:first-child)
-{
-margin-left: 8px;
-}
-
-.mylist
-{
-  margin-left: 0%;
-  text-align: center;
-}
-
-.intro
-{
- margin-top: 20px;
-}
-
-.inttopmobile
-{
-  padding-top: 10px;
-}
-
-.conframe
-{
-  padding: 22px 20px;
-}
-
-.intoful ul
-{
-  padding: 0;
-}
-
-.inttop {
-    margin-top: 0px;
-}
-
-.progbottom
-{
-  margin-bottom: 8px;
-}
-
-.progtoppro
-{
-  margin-top: 8px;
-}
-
-.progbottomdes
-{
-  margin-bottom: 8px;
-}
-
-.workful dl, ol, ul
-{
-  padding-left: 17px;
-}
-
-.wrkmb ol
-{
-  margin-left: 14px;
-}
-
-.eduname
-{
-  color: #999;
-  margin-bottom: 8px;
-}
-
-.intii
-{
-color: #999;
-margin-bottom: 8px;
-}
-
-.nbign
-{
-  color: #fff;
-  text-decoration: none;
-}
-
-.n95
-{
- display: none;
-}
-
-}
-
-/** iPhone 5s width **/
-
-@media (max-width: 320px) {
-
-.buttonmobile {
-    width: 150px;
-}
-
-.for5s
-{
-    font-size: 20px;
-    color: #fff;
-}
-
-.listmobilenav a
-{
-    margin: 14px;
-}
-
+.navbar-dark .navbar-brand:hover {
+    color: #f3ebe3;;
 }
