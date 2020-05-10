@@ -40,13 +40,13 @@ border-radius: 50%;
 
 .my-name
 {
- font-size: 25px;
+ font-size: 28px;
 }
 
 .my-work
 {
 margin-bottom: 6.5px;
-font-size: 16px;
+font-size: 17px;
 }
 
 .my-email
@@ -116,6 +116,11 @@ margin-top: 0px;
 #pogras
 {
 	width: 90%;
+}
+
+.wrkn
+{
+  margin-top: 5px;
 }
   }
 

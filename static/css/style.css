@@ -49,6 +49,11 @@ margin-bottom: 6.5px;
 font-size: 21px;
 }
 
+.ttl
+{
+font-family: 'IBM Plex Serif', serif;
+}
+
 .my-cv
 {
   margin-top: 8px;
@@ -58,11 +63,15 @@ font-size: 21px;
 .intro
 {
   margin: 20px;
+ font-family: 'IBM Plex Serif', serif;
+
 }
 
 .second p
 {
   margin: 20px;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 18px;
 }
 
 .footer 
@@ -86,17 +95,28 @@ font-size: 21px;
 .cert
 {
   margin-top: 10px;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 28px;
 }
 
 .edu
 {
   margin-top: 10px;
+  font-family: 'IBM Plex Serif', serif;
+
 }
 
 .workcol
 {
   text-align: left;
   margin-left: 16.2%;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+}
+
+.workcol h3 h6
+{
+font-family: 'IBM Plex Serif', serif;
 }
 
 .procol
@@ -121,12 +141,12 @@ width: 80%;
 
 .progress-bar
 {
-background-color: #272422;
+background-color: #2d3436;
 }
 
 .progress
 {
-  background-color: #f0e3d6;
+  background-color: #ebe5e5;
 }
 
 .btn
@@ -147,6 +167,11 @@ background-color: #272422;
   
   font-size: 12rem;
    
+}
+
+.wrkn
+{
+  margin-top: 15px;
 }
 
 .navbar-dark .navbar-brand:hover {
