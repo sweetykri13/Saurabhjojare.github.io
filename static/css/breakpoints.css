@@ -21,7 +21,7 @@
 }
 
 .second
-{s
+{
 	margin: 10px;
 
 }
@@ -89,15 +89,19 @@ font-size: 17px;
 .fzf h1
 {
   
-  font-size: 10.5rem;
-   
+  font-size: 10.5rem;  
 }
 
- }
+.ttl
+{
+  text-align: left;
+}
 
- @media (max-width: 991.98px) { 
+}
 
+ @media (max-width: 991.98px) 
 
+{ 
 .main
 {
 margin-top: 0px;
@@ -127,28 +131,26 @@ margin-top: 0px;
 
 @media (max-width: 320.98px) { 
 
-  	.menu a
-  	{
-  		font-size: 12px;
-  		margin-right: 6px;
-  	}
+.menu a
+{
+	font-size: 12px;
+  margin-right: 6px;
+}
 
-  	.second p
-  	{
-  		margin: 5px;
-  	}
+.second p
+{
+  margin: 5px;
+}
 
-  	.intro
-  	{
-  		margin: 0;
-  		margin-top: 15px;
-  	}
+.intro
+{
+  margin: 0;
+  margin-top: 15px;
+}
 
 .fzf h1
 {
-  
-  font-size: 7rem;
-   
+font-size: 7rem;   
 }
 
-  }
+}
