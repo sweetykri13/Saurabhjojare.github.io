@@ -51,7 +51,7 @@ font-size: 21px;
 
 .ttl
 {
-font-family: 'IBM Plex Serif', serif;
+ font-size: 40px;
 }
 
 .my-cv
@@ -63,15 +63,12 @@ font-family: 'IBM Plex Serif', serif;
 .intro
 {
   margin: 20px;
- font-family: 'IBM Plex Serif', serif;
-
 }
 
 .second p
 {
   margin: 20px;
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .footer 
@@ -94,29 +91,21 @@ font-family: 'IBM Plex Serif', serif;
 
 .cert
 {
-  margin-top: 10px;
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 28px;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .edu
 {
   margin-top: 10px;
-  font-family: 'IBM Plex Serif', serif;
-
+  font-size: 32px;
 }
 
 .workcol
 {
   text-align: left;
   margin-left: 16.2%;
-  font-family: 'IBM Plex Serif', serif;
   font-size: 20px;
-}
-
-.workcol h3 h6
-{
-font-family: 'IBM Plex Serif', serif;
 }
 
 .procol
