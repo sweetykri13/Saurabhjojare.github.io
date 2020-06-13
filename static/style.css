@@ -1,0 +1,188 @@
+/*
+ * Created By Saurabh Jojare (https://github.com/saurabhjojare)
+ * Saurabh Jojare v3.0 (http://saurabhjojare.github.io)
+ * Licensed under MIT (https://github.com/saurabhjojare/Saurabhjojare.github.io/blob/master/LICENSE)
+*/
+
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+body 
+{
+  margin-bottom: 60px; 
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: #f3ebe3;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.my-img
+{
+width: 208px;
+height: 208px;
+border-radius: 50%;
+}
+
+.main
+{
+  margin-top: 50px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.navbar-dark .navbar-brand 
+{
+    color: #f3ebe3;
+}
+
+.my-name
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.my-work
+{
+margin-bottom: 6.5px;
+font-size: 21px;
+}
+
+.ttl
+{
+ font-size: 40px;
+}
+
+.my-cv
+{
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.intro
+{
+  margin: 20px;
+}
+
+.second p
+{
+  margin: 20px;
+  font-size: 21px;
+}
+
+.footer 
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+  line-height: 60px; 
+  color: #f3ebe3;
+}
+
+.menu a
+{
+  margin-right: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.cert
+{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.hype a:hover {
+    color: #007bff;
+}
+
+.edu
+{
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.workcol
+{
+  text-align: left;
+  margin-left: 16.2%;
+  font-size: 20px;
+}
+
+.procol
+{
+  text-align: left;
+  margin-left: 17.8%;
+}
+
+#pogras
+{
+border-radius: 0px;
+line-height: 18px;
+height: 32px;
+margin-top: 0.6rem;
+width: 80%;
+}
+
+#probar
+{
+  padding: 7px;
+}
+
+.progress-bar
+{
+background-color: #2d3436;
+}
+
+.progress
+{
+  background-color: #ebe5e5;
+}
+
+.btn
+{
+  border-radius: 0rem;
+}
+
+.fzf
+{
+    padding-top: 1000;
+    min-height: 100%;
+    height: 100%;
+    margin-top: 100px; 
+}
+
+.fzf h1
+{
+  
+  font-size: 12rem;
+   
+}
+
+.wrkn
+{
+  margin-top: 15px;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #f3ebe3;;
+}
+
+.nwro
+{
+  margin-left: 17.8%;
+}
+
+.nwrot
+{
+  margin-left: 15.4%;
+}
+
+.inintt
+{
+  margin-top: 25.8px;
+}
