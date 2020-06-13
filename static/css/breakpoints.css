@@ -97,6 +97,17 @@ font-size: 17px;
   text-align: left;
 }
 
+.inintt
+{
+  margin-top: 10px;
+}
+
+.menu a
+{
+	font-size: 16.5px;
+  margin-right: 7px;
+}
+
 }
 
  @media (max-width: 991.98px) 
@@ -133,8 +144,8 @@ margin-top: 0px;
 
 .menu a
 {
-	font-size: 12px;
-  margin-right: 6px;
+	font-size: 13px;
+  margin-right: 7px;
 }
 
 .second p

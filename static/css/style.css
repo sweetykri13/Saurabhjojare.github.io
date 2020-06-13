@@ -16,6 +16,7 @@ body
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   color: #f3ebe3;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .my-img
@@ -179,4 +180,9 @@ background-color: #2d3436;
 .nwrot
 {
   margin-left: 15.4%;
+}
+
+.inintt
+{
+  margin-top: 25.8px;
 }
