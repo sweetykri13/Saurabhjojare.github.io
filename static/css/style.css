@@ -186,3 +186,23 @@ background-color: #2d3436;
 {
   margin-top: 25.8px;
 }
+
+#navbr {
+  background-color: transparent;
+}
+
+#email {
+  color:#f3ebe3; 
+  text-decoration: none;
+}
+
+#resumebtn {
+  color: #f3ebe3; 
+  text-decoration: none;
+}
+
+#footername
+{
+  float: right; 
+  color: #777;
+}
