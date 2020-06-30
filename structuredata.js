@@ -8,7 +8,6 @@
   "email": "saurabhjojare@gmail.com",
   "affiliation": "Savitribai Phule Pune University",
   "birthDate": "2 Feb 2000",
-  "alumniOf": "Savitribai Phule Pune University",
   "gender": "http://schema.org/Male",
   "hasOccupation": "Full Stack Developer",
   "nationality": "Indian",
