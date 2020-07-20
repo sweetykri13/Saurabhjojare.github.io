@@ -5,7 +5,7 @@
   "familyName": "Jojare",
   "givenName": "Saurabh",
   "url": "https://saurabhjojare.github.io",
-  "email": "saurabhjojare@gmail.com",
+  "email": "saurabh.jojare@gmail.com",
   "affiliation": "Savitribai Phule Pune University",
   "birthDate": "2 Feb 2000",
   "gender": "http://schema.org/Male",
